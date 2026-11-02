@@ -1,0 +1,133 @@
+[ieee33 | moderate] peak=3715 kW, 9 relays, 8 pairs, hubs=[9 14 17 21 24 30], rooftop PV=0% of bus peak
+rep 0: K=2 (kmeans; validity-best K=2, 0 ungradable) | conventional=0 robust_K1=0 validity_only=0 proposed_state=0 proposed_knn=0 proposed_knn_env=0 scalar_11=152 scalar_K=0 | acc=0.992 | 9 s
+rep 1: K=2 (kmeans; validity-best K=2, 0 ungradable) | conventional=0 robust_K1=0 validity_only=0 proposed_state=0 proposed_knn=0 proposed_knn_env=0 scalar_11=147 scalar_K=147 | acc=0.985 | 9 s
+rep 2: K=2 (kmeans; validity-best K=2, 0 ungradable) | conventional=0 robust_K1=0 validity_only=0 proposed_state=0 proposed_knn=0 proposed_knn_env=0 scalar_11=100 scalar_K=0 | acc=0.992 | 9 s
+rep 3: K=2 (kmeans; validity-best K=2, 0 ungradable) | conventional=0 robust_K1=0 validity_only=0 proposed_state=0 proposed_knn=0 proposed_knn_env=0 scalar_11=92 scalar_K=0 | acc=0.990 | 9 s
+rep 4: K=2 (kmeans; validity-best K=2, 0 ungradable) | conventional=0 robust_K1=0 validity_only=0 proposed_state=0 proposed_knn=0 proposed_knn_env=0 scalar_11=57 scalar_K=0 | acc=0.985 | 9 s
+rep 5: K=2 (kmeans; validity-best K=2, 0 ungradable) | conventional=0 robust_K1=0 validity_only=0 proposed_state=0 proposed_knn=0 proposed_knn_env=0 scalar_11=134 scalar_K=0 | acc=0.996 | 9 s
+rep 6: K=2 (kmeans; validity-best K=2, 0 ungradable) | conventional=0 robust_K1=0 validity_only=0 proposed_state=0 proposed_knn=0 proposed_knn_env=0 scalar_11=134 scalar_K=0 | acc=0.994 | 9 s
+rep 7: K=2 (kmeans; validity-best K=2, 0 ungradable) | conventional=0 robust_K1=0 validity_only=0 proposed_state=0 proposed_knn=0 proposed_knn_env=0 scalar_11=98 scalar_K=0 | acc=0.985 | 9 s
+rep 8: K=2 (kmeans; validity-best K=2, 0 ungradable) | conventional=0 robust_K1=0 validity_only=0 proposed_state=0 proposed_knn=0 proposed_knn_env=0 scalar_11=187 scalar_K=78 | acc=0.985 | 9 s
+rep 9: K=2 (ward; validity-best K=2, 0 ungradable) | conventional=0 robust_K1=0 validity_only=0 proposed_state=0 proposed_knn=0 proposed_knn_env=0 scalar_11=104 scalar_K=0 | acc=0.981 | 9 s
+
+scheme             groups        test events       affected %       t_prim (s) trunk pk (A)   min marg
+conventional          1.0       0.0 +/-   0.0     0.00 +/-  0.00  0.3976 +/- 0.0003    164.3      0.309
+robust_K1             1.0       0.0 +/-   0.0     0.00 +/-  0.00  0.3981 +/- 0.0002    163.6      0.310
+validity_only         2.0       0.0 +/-   0.0     0.00 +/-  0.00  0.3995 +/- 0.0035    156.4      0.310
+proposed_state        2.0       0.0 +/-   0.0     0.00 +/-  0.00  0.3995 +/- 0.0035    156.4      0.310
+proposed_knn          2.0       0.0 +/-   0.0     0.00 +/-  0.00  0.3995 +/- 0.0034    156.5      0.310
+proposed_knn_env      3.0       0.0 +/-   0.0     0.00 +/-  0.00  0.3995 +/- 0.0033    156.6      0.310
+scalar_11            11.0     120.5 +/-  37.3    12.90 +/-  4.13  0.4016 +/- 0.0062    148.1      0.062
+scalar_K              2.0      22.5 +/-  50.1     3.10 +/-  6.55  0.3995 +/- 0.0021    157.0      0.188
+K selected: [2 2 2 2 2 2 2 2 2 2]   validity-best K: [2 2 2 2 2 2 2 2 2 2] (ungradable groups [0 0 0 0 0 0 0 0 0 0])   in-sample events (proposed): [0 0 0 0 0 0 0 0 0 0]   kNN accuracy: 0.989
+[ieee33 | der_rich] peak=3715 kW, 9 relays, 8 pairs, hubs=[9 14 17 21 24 30], rooftop PV=60% of bus peak
+rep 0: K=2 (kmeans; validity-best K=2, 0 ungradable) | conventional=0 robust_K1=0 validity_only=0 proposed_state=0 proposed_knn=0 proposed_knn_env=0 scalar_11=185 scalar_K=0 | acc=0.990 | 9 s
+rep 1: K=2 (ward; validity-best K=2, 0 ungradable) | conventional=0 robust_K1=0 validity_only=0 proposed_state=0 proposed_knn=0 proposed_knn_env=0 scalar_11=221 scalar_K=0 | acc=0.940 | 10 s
+rep 2: K=2 (ward; validity-best K=2, 0 ungradable) | conventional=0 robust_K1=0 validity_only=0 proposed_state=0 proposed_knn=0 proposed_knn_env=0 scalar_11=149 scalar_K=0 | acc=0.988 | 9 s
+rep 3: K=2 (kmeans; validity-best K=2, 0 ungradable) | conventional=0 robust_K1=0 validity_only=0 proposed_state=0 proposed_knn=0 proposed_knn_env=0 scalar_11=229 scalar_K=0 | acc=0.983 | 9 s
+rep 4: K=2 (kmeans; validity-best K=2, 0 ungradable) | conventional=0 robust_K1=0 validity_only=0 proposed_state=0 proposed_knn=0 proposed_knn_env=0 scalar_11=121 scalar_K=0 | acc=0.990 | 9 s
+rep 5: K=2 (kmeans; validity-best K=2, 0 ungradable) | conventional=0 robust_K1=0 validity_only=0 proposed_state=0 proposed_knn=0 proposed_knn_env=0 scalar_11=188 scalar_K=0 | acc=0.998 | 9 s
+rep 6: K=2 (kmeans; validity-best K=2, 0 ungradable) | conventional=0 robust_K1=0 validity_only=0 proposed_state=0 proposed_knn=0 proposed_knn_env=0 scalar_11=262 scalar_K=0 | acc=0.992 | 9 s
+rep 7: K=2 (kmeans; validity-best K=2, 0 ungradable) | conventional=0 robust_K1=0 validity_only=0 proposed_state=0 proposed_knn=0 proposed_knn_env=0 scalar_11=179 scalar_K=0 | acc=0.981 | 9 s
+rep 8: K=2 (kmeans; validity-best K=2, 0 ungradable) | conventional=0 robust_K1=0 validity_only=0 proposed_state=0 proposed_knn=0 proposed_knn_env=0 scalar_11=237 scalar_K=0 | acc=0.992 | 9 s
+rep 9: K=2 (ward; validity-best K=2, 0 ungradable) | conventional=0 robust_K1=0 validity_only=0 proposed_state=0 proposed_knn=0 proposed_knn_env=0 scalar_11=168 scalar_K=0 | acc=0.973 | 9 s
+
+scheme             groups        test events       affected %       t_prim (s) trunk pk (A)   min marg
+conventional          1.0       0.0 +/-   0.0     0.00 +/-  0.00  0.3964 +/- 0.0002    164.3      0.306
+robust_K1             1.0       0.0 +/-   0.0     0.00 +/-  0.00  0.4063 +/- 0.0139    168.8      0.310
+validity_only         2.0       0.0 +/-   0.0     0.00 +/-  0.00  0.4002 +/- 0.0019    161.3      0.310
+proposed_state        2.0       0.0 +/-   0.0     0.00 +/-  0.00  0.4002 +/- 0.0019    161.3      0.310
+proposed_knn          2.0       0.0 +/-   0.0     0.00 +/-  0.00  0.4002 +/- 0.0020    161.4      0.310
+proposed_knn_env      3.0       0.0 +/-   0.0     0.00 +/-  0.00  0.4002 +/- 0.0019    161.4      0.310
+scalar_11            11.0     193.9 +/-  43.2    18.54 +/-  2.96  0.4001 +/- 0.0020    146.3      0.070
+scalar_K              2.0       0.0 +/-   0.0     0.00 +/-  0.00  0.3997 +/- 0.0001    162.0      0.310
+K selected: [2 2 2 2 2 2 2 2 2 2]   validity-best K: [2 2 2 2 2 2 2 2 2 2] (ungradable groups [0 0 0 0 0 0 0 0 0 0])   in-sample events (proposed): [0 0 0 0 0 0 0 0 0 0]   kNN accuracy: 0.982
+[ieee69 | moderate] peak=3802 kW, 9 relays, 8 pairs, hubs=[12 16 21 49 52 61], rooftop PV=0% of bus peak
+rep 0: K=2 (kmeans; validity-best K=2, 0 ungradable) | conventional=0 robust_K1=0 validity_only=0 proposed_state=0 proposed_knn=0 proposed_knn_env=0 scalar_11=154 scalar_K=0 | acc=0.992 | 9 s
+rep 1: K=2 (kmeans; validity-best K=2, 0 ungradable) | conventional=0 robust_K1=0 validity_only=0 proposed_state=0 proposed_knn=0 proposed_knn_env=0 scalar_11=113 scalar_K=75 | acc=0.985 | 9 s
+rep 2: K=2 (kmeans; validity-best K=2, 0 ungradable) | conventional=0 robust_K1=0 validity_only=0 proposed_state=0 proposed_knn=0 proposed_knn_env=0 scalar_11=118 scalar_K=0 | acc=0.992 | 9 s
+rep 3: K=2 (kmeans; validity-best K=2, 0 ungradable) | conventional=0 robust_K1=0 validity_only=0 proposed_state=0 proposed_knn=0 proposed_knn_env=0 scalar_11=101 scalar_K=0 | acc=0.990 | 9 s
+rep 4: K=2 (kmeans; validity-best K=2, 0 ungradable) | conventional=0 robust_K1=0 validity_only=0 proposed_state=0 proposed_knn=0 proposed_knn_env=0 scalar_11=71 scalar_K=0 | acc=0.985 | 9 s
+rep 5: K=2 (kmeans; validity-best K=2, 0 ungradable) | conventional=0 robust_K1=0 validity_only=0 proposed_state=0 proposed_knn=0 proposed_knn_env=0 scalar_11=115 scalar_K=0 | acc=0.996 | 9 s
+rep 6: K=2 (kmeans; validity-best K=2, 0 ungradable) | conventional=0 robust_K1=0 validity_only=0 proposed_state=0 proposed_knn=0 proposed_knn_env=0 scalar_11=114 scalar_K=0 | acc=0.994 | 9 s
+rep 7: K=2 (kmeans; validity-best K=2, 0 ungradable) | conventional=0 robust_K1=0 validity_only=0 proposed_state=0 proposed_knn=0 proposed_knn_env=0 scalar_11=106 scalar_K=0 | acc=0.985 | 9 s
+rep 8: K=2 (kmeans; validity-best K=2, 0 ungradable) | conventional=0 robust_K1=0 validity_only=0 proposed_state=0 proposed_knn=0 proposed_knn_env=0 scalar_11=169 scalar_K=78 | acc=0.985 | 9 s
+rep 9: K=2 (ward; validity-best K=2, 0 ungradable) | conventional=0 robust_K1=0 validity_only=0 proposed_state=0 proposed_knn=0 proposed_knn_env=0 scalar_11=132 scalar_K=0 | acc=0.981 | 9 s
+
+scheme             groups        test events       affected %       t_prim (s) trunk pk (A)   min marg
+conventional          1.0       0.0 +/-   0.0     0.00 +/-  0.00  0.3926 +/- 0.0002    164.3      0.306
+robust_K1             1.0       0.0 +/-   0.0     0.00 +/-  0.00  0.3940 +/- 0.0002    163.6      0.310
+validity_only         2.0       0.0 +/-   0.0     0.00 +/-  0.00  0.3947 +/- 0.0030    157.4      0.310
+proposed_state        2.0       0.0 +/-   0.0     0.00 +/-  0.00  0.3947 +/- 0.0030    157.4      0.310
+proposed_knn          2.0       0.0 +/-   0.0     0.00 +/-  0.00  0.3946 +/- 0.0029    157.5      0.310
+proposed_knn_env      3.0       0.0 +/-   0.0     0.00 +/-  0.00  0.3946 +/- 0.0028    157.5      0.310
+scalar_11            11.0     119.3 +/-  27.4    12.90 +/-  4.13  0.3937 +/- 0.0009    149.7      0.093
+scalar_K              2.0      15.3 +/-  32.3     3.10 +/-  6.55  0.3948 +/- 0.0016    157.8      0.162
+K selected: [2 2 2 2 2 2 2 2 2 2]   validity-best K: [2 2 2 2 2 2 2 2 2 2] (ungradable groups [0 0 0 0 0 0 0 0 0 0])   in-sample events (proposed): [0 0 0 0 0 0 0 0 0 0]   kNN accuracy: 0.989
+[ieee69 | der_rich] peak=3802 kW, 9 relays, 8 pairs, hubs=[12 16 21 49 52 61], rooftop PV=60% of bus peak
+rep 0: K=2 (kmeans; validity-best K=2, 0 ungradable) | conventional=208 robust_K1=0 validity_only=0 proposed_state=0 proposed_knn=0 proposed_knn_env=0 scalar_11=124 scalar_K=0 | acc=0.990 | 9 s
+rep 1: K=2 (ward; validity-best K=2, 0 ungradable) | conventional=217 robust_K1=0 validity_only=3 proposed_state=3 proposed_knn=0 proposed_knn_env=0 scalar_11=186 scalar_K=1 | acc=0.940 | 10 s
+rep 2: K=2 (ward; validity-best K=2, 0 ungradable) | conventional=213 robust_K1=0 validity_only=0 proposed_state=0 proposed_knn=0 proposed_knn_env=0 scalar_11=119 scalar_K=0 | acc=0.988 | 9 s
+rep 3: K=2 (kmeans; validity-best K=2, 0 ungradable) | conventional=214 robust_K1=0 validity_only=0 proposed_state=0 proposed_knn=0 proposed_knn_env=0 scalar_11=227 scalar_K=0 | acc=0.983 | 9 s
+rep 4: K=2 (kmeans; validity-best K=2, 0 ungradable) | conventional=199 robust_K1=0 validity_only=0 proposed_state=0 proposed_knn=0 proposed_knn_env=0 scalar_11=117 scalar_K=0 | acc=0.990 | 9 s
+rep 5: K=2 (kmeans; validity-best K=2, 0 ungradable) | conventional=212 robust_K1=0 validity_only=0 proposed_state=0 proposed_knn=0 proposed_knn_env=0 scalar_11=156 scalar_K=0 | acc=0.998 | 9 s
+rep 6: K=2 (kmeans; validity-best K=2, 0 ungradable) | conventional=227 robust_K1=0 validity_only=0 proposed_state=0 proposed_knn=0 proposed_knn_env=0 scalar_11=232 scalar_K=0 | acc=0.992 | 9 s
+rep 7: K=2 (kmeans; validity-best K=2, 0 ungradable) | conventional=194 robust_K1=0 validity_only=0 proposed_state=0 proposed_knn=0 proposed_knn_env=0 scalar_11=198 scalar_K=0 | acc=0.981 | 9 s
+rep 8: K=2 (kmeans; validity-best K=2, 0 ungradable) | conventional=223 robust_K1=0 validity_only=0 proposed_state=0 proposed_knn=0 proposed_knn_env=0 scalar_11=218 scalar_K=0 | acc=0.992 | 9 s
+rep 9: K=2 (ward; validity-best K=2, 0 ungradable) | conventional=213 robust_K1=0 validity_only=0 proposed_state=0 proposed_knn=0 proposed_knn_env=0 scalar_11=129 scalar_K=0 | acc=0.973 | 9 s
+
+scheme             groups        test events       affected %       t_prim (s) trunk pk (A)   min marg
+conventional          1.0     212.0 +/-   9.9    44.17 +/-  2.07  0.3918 +/- 0.0002    164.3      0.294
+robust_K1             1.0       0.0 +/-   0.0     0.00 +/-  0.00  0.3975 +/- 0.0002    178.8      0.310
+validity_only         2.0       0.3 +/-   0.9     0.06 +/-  0.20  0.3963 +/- 0.0022    163.4      0.310
+proposed_state        2.0       0.3 +/-   0.9     0.06 +/-  0.20  0.3963 +/- 0.0022    163.4      0.310
+proposed_knn          2.0       0.0 +/-   0.0     0.00 +/-  0.00  0.3964 +/- 0.0021    163.4      0.310
+proposed_knn_env      3.0       0.0 +/-   0.0     0.00 +/-  0.00  0.3964 +/- 0.0021    163.4      0.310
+scalar_11            11.0     170.6 +/-  46.9    19.21 +/-  2.30  0.3964 +/- 0.0030    148.6      0.012
+scalar_K              2.0       0.1 +/-   0.3     0.02 +/-  0.07  0.3965 +/- 0.0005    163.5      0.310
+K selected: [2 2 2 2 2 2 2 2 2 2]   validity-best K: [2 2 2 2 2 2 2 2 2 2] (ungradable groups [0 0 0 0 0 0 0 0 0 0])   in-sample events (proposed): [0 0 0 0 0 0 0 0 0 0]   kNN accuracy: 0.982
+[ieee123 | moderate] peak=3490 kW, 9 relays, 8 pairs, hubs=[91 105 118 72 78 84], rooftop PV=0% of bus peak
+rep 0: K=1 (none; validity-best K=2, 1 ungradable) | conventional=0 robust_K1=0 validity_only=116 proposed_state=0 proposed_knn=0 proposed_knn_env=0 scalar_11=486 scalar_K=0 | acc=1.000 | 10 s
+rep 1: K=1 (none; validity-best K=2, 1 ungradable) | conventional=0 robust_K1=0 validity_only=114 proposed_state=0 proposed_knn=0 proposed_knn_env=0 scalar_11=447 scalar_K=0 | acc=1.000 | 11 s
+rep 2: K=1 (none; validity-best K=2, 1 ungradable) | conventional=0 robust_K1=0 validity_only=110 proposed_state=0 proposed_knn=0 proposed_knn_env=0 scalar_11=366 scalar_K=0 | acc=1.000 | 10 s
+rep 3: K=2 (ward; validity-best K=2, 1 ungradable) | conventional=0 robust_K1=0 validity_only=110 proposed_state=0 proposed_knn=0 proposed_knn_env=0 scalar_11=437 scalar_K=219 | acc=0.985 | 11 s
+rep 4: K=2 (ward; validity-best K=2, 1 ungradable) | conventional=1 robust_K1=0 validity_only=87 proposed_state=0 proposed_knn=0 proposed_knn_env=0 scalar_11=320 scalar_K=159 | acc=0.929 | 11 s
+rep 5: K=1 (none; validity-best K=2, 1 ungradable) | conventional=0 robust_K1=0 validity_only=116 proposed_state=0 proposed_knn=0 proposed_knn_env=0 scalar_11=482 scalar_K=0 | acc=1.000 | 10 s
+rep 6: K=1 (none; validity-best K=2, 1 ungradable) | conventional=0 robust_K1=0 validity_only=117 proposed_state=0 proposed_knn=0 proposed_knn_env=0 scalar_11=531 scalar_K=0 | acc=1.000 | 10 s
+rep 7: K=1 (none; validity-best K=2, 1 ungradable) | conventional=0 robust_K1=0 validity_only=98 proposed_state=0 proposed_knn=0 proposed_knn_env=0 scalar_11=367 scalar_K=0 | acc=1.000 | 10 s
+rep 8: K=1 (none; validity-best K=2, 1 ungradable) | conventional=0 robust_K1=0 validity_only=342 proposed_state=0 proposed_knn=0 proposed_knn_env=0 scalar_11=507 scalar_K=0 | acc=1.000 | 10 s
+rep 9: K=1 (none; validity-best K=2, 1 ungradable) | conventional=0 robust_K1=0 validity_only=312 proposed_state=0 proposed_knn=0 proposed_knn_env=0 scalar_11=442 scalar_K=0 | acc=1.000 | 10 s
+
+scheme             groups        test events       affected %       t_prim (s) trunk pk (A)   min marg
+conventional          1.0       0.1 +/-   0.3     0.02 +/-  0.07  0.3685 +/- 0.0007    294.1      0.301
+robust_K1             1.0       0.0 +/-   0.0     0.00 +/-  0.00  0.3715 +/- 0.0003    305.5      0.310
+validity_only         2.0     152.2 +/-  92.9    22.62 +/-  2.02  0.3750 +/- 0.0113    276.1      0.083
+proposed_state        1.2       0.0 +/-   0.0     0.00 +/-  0.00  0.3717 +/- 0.0004    301.9      0.310
+proposed_knn          1.2       0.0 +/-   0.0     0.00 +/-  0.00  0.3717 +/- 0.0004    301.8      0.310
+proposed_knn_env      1.4       0.0 +/-   0.0     0.00 +/-  0.00  0.3717 +/- 0.0004    301.8      0.310
+scalar_11            11.0     438.5 +/-  68.2    24.88 +/-  3.23  0.3501 +/- 0.0049    253.2     -0.036
+scalar_K              1.2      37.8 +/-  80.9     2.62 +/-  5.62  0.3700 +/- 0.0035    300.4      0.087
+K selected: [1 1 1 2 2 1 1 1 1 1]   validity-best K: [2 2 2 2 2 2 2 2 2 2] (ungradable groups [1 1 1 1 1 1 1 1 1 1])   in-sample events (proposed): [0 0 0 0 0 0 0 0 0 0]   kNN accuracy: 0.991
+[ieee123 | der_rich] peak=3490 kW, 9 relays, 8 pairs, hubs=[91 105 118 72 78 84], rooftop PV=60% of bus peak
+rep 0: K=2 (kmeans; validity-best K=2, 0 ungradable) | conventional=208 robust_K1=0 validity_only=0 proposed_state=0 proposed_knn=0 proposed_knn_env=0 scalar_11=186 scalar_K=0 | acc=0.990 | 9 s
+rep 1: K=2 (ward; validity-best K=2, 0 ungradable) | conventional=217 robust_K1=0 validity_only=0 proposed_state=0 proposed_knn=0 proposed_knn_env=0 scalar_11=211 scalar_K=0 | acc=0.940 | 9 s
+rep 2: K=2 (ward; validity-best K=2, 0 ungradable) | conventional=213 robust_K1=0 validity_only=0 proposed_state=0 proposed_knn=0 proposed_knn_env=0 scalar_11=194 scalar_K=0 | acc=0.988 | 9 s
+rep 3: K=2 (kmeans; validity-best K=2, 0 ungradable) | conventional=214 robust_K1=0 validity_only=0 proposed_state=0 proposed_knn=0 proposed_knn_env=0 scalar_11=182 scalar_K=0 | acc=0.983 | 9 s
+rep 4: K=2 (kmeans; validity-best K=2, 0 ungradable) | conventional=199 robust_K1=0 validity_only=0 proposed_state=0 proposed_knn=0 proposed_knn_env=0 scalar_11=244 scalar_K=0 | acc=0.990 | 9 s
+rep 5: K=2 (kmeans; validity-best K=2, 0 ungradable) | conventional=212 robust_K1=0 validity_only=0 proposed_state=0 proposed_knn=0 proposed_knn_env=0 scalar_11=118 scalar_K=0 | acc=0.998 | 9 s
+rep 6: K=2 (kmeans; validity-best K=2, 0 ungradable) | conventional=227 robust_K1=0 validity_only=0 proposed_state=0 proposed_knn=0 proposed_knn_env=0 scalar_11=283 scalar_K=0 | acc=0.992 | 9 s
+rep 7: K=2 (kmeans; validity-best K=2, 0 ungradable) | conventional=194 robust_K1=0 validity_only=0 proposed_state=0 proposed_knn=0 proposed_knn_env=0 scalar_11=187 scalar_K=0 | acc=0.981 | 9 s
+rep 8: K=2 (kmeans; validity-best K=2, 0 ungradable) | conventional=223 robust_K1=0 validity_only=0 proposed_state=0 proposed_knn=0 proposed_knn_env=0 scalar_11=177 scalar_K=0 | acc=0.992 | 9 s
+rep 9: K=2 (ward; validity-best K=2, 0 ungradable) | conventional=213 robust_K1=0 validity_only=0 proposed_state=0 proposed_knn=0 proposed_knn_env=0 scalar_11=236 scalar_K=0 | acc=0.973 | 9 s
+
+scheme             groups        test events       affected %       t_prim (s) trunk pk (A)   min marg
+conventional          1.0     212.0 +/-   9.9    44.17 +/-  2.07  0.3651 +/- 0.0005    294.1      0.277
+robust_K1             1.0       0.0 +/-   0.0     0.00 +/-  0.00  0.3725 +/- 0.0005    441.4      0.310
+validity_only         2.0       0.0 +/-   0.0     0.00 +/-  0.00  0.3758 +/- 0.0007    330.9      0.310
+proposed_state        2.0       0.0 +/-   0.0     0.00 +/-  0.00  0.3758 +/- 0.0007    330.9      0.310
+proposed_knn          2.0       0.0 +/-   0.0     0.00 +/-  0.00  0.3759 +/- 0.0007    329.6      0.310
+proposed_knn_env      3.0       0.0 +/-   0.0     0.00 +/-  0.00  0.3759 +/- 0.0007    329.8      0.310
+scalar_11            11.0     201.8 +/-  45.0    16.79 +/-  4.24  0.3718 +/- 0.0039    278.5     -0.015
+scalar_K              2.0       0.0 +/-   0.0     0.00 +/-  0.00  0.3763 +/- 0.0006    328.5      0.309
+K selected: [2 2 2 2 2 2 2 2 2 2]   validity-best K: [2 2 2 2 2 2 2 2 2 2] (ungradable groups [0 0 0 0 0 0 0 0 0 0])   in-sample events (proposed): [0 0 0 0 0 0 0 0 0 0]   kNN accuracy: 0.982
+OCTAVE_DONE
